@@ -6,7 +6,7 @@ public class PlayerMovementController : MonoBehaviour
     [SerializeField]
     private float moveSpeed = 4;
     [SerializeField]
-    private float jumpForce = 400;
+    private float jumpForce = 200;
 
     private new Rigidbody2D rigidbody;
     private CharacterGrounding characterGrounding;
